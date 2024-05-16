@@ -16,6 +16,9 @@ Esses problemas apontam para a necessidade de uma avaliação aprofundada da int
  <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube.png">
 Figura 1. Página inicial do YouTube. (Diretamente extraído do meu YouTube pessoal).
 
+_
+
+
 É importante observar que o maior espaço disponível em sua interface é dedicado aos conteúdos em vídeo, destacado em um retângulo vermelho na figura 2, sendo que dois desses vídeos são anúncios, destacados em amarelo. No retângulo azul estão notícias publicadas na plataforma por agências de notícias e blogs, deixando disponível para vídeos de recomendação o restante da da área que foi marcada com o retângulo vermelho, sendo o conteúdo que será analisado neste trabalho.
 
  <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube1.png">
