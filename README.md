@@ -11,7 +11,7 @@ A escolha do YouTube para a análise de experiência do usuário (UX) se deve po
 
 Contudo, apesar de seu sucesso e inovação, o YouTube enfrenta desafios contínuos em termos de experiência do usuário. Por exemplo, a navegação e a descoberta de conteúdo relevante são aspectos que frequentemente frustram os usuários, como pode ser verificado na figura 1, inundados por recomendações que nem sempre atendem aos seus interesses, em uma disposição que mistura conteúdos de temas diversos. 
 
-Esses problemas apontam para a necessidade de uma avaliação aprofundada da interface e da arquitetura de informação do YouTube, com o intuito de identificar oportunidades de otimização. Com isso, serão utilizados o framework HEART e o modelo GSM para analisar sistematicamente a experiência do usuário, formular hipóteses baseadas em observações e testá-las por meio de uma proposta de coleta de dados. 
+Esses problemas apontam para a necessidade de uma avaliação aprofundada da interface e da arquitetura de informação do YouTube, com o intuito de identificar oportunidades de otimização. Com isso, serão utilizados o framework HEART e o modelo GSM para analisar sistematicamente a experiência do usuário, formular hipóteses baseadas no problema central onde os usuários não encontram vídeos relevantes para eles a partir da página inicial do YouTube, e também realizar observações a partir de testes de usabilidades e coletas de dados qualitativas e por fim testá-las por meio de uma proposta de coleta de dados. 
 
  <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube.png">
 Figura 1. Página inicial do YouTube. (Diretamente extraído do meu YouTube pessoal).
@@ -29,70 +29,78 @@ Figura 2. Página inicial do YouTube, com seus elementos destacados em grupos, r
 
 | Framework HEART          | Objetivo (Goal)                                                                                                                                                   | Sinal (Signal)                                                                                                                      | Métrica (Metric)                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Felicidade (Happiness)**   | Aumentar a satisfação do usuário com as recomendações de vídeos na página inicial.                                                                                | Nível elevado de engajamento e feedbacks positivos nos vídeos acessados a partir da tela inicial.                                   | <ul><li>Taxa de curtidas em vídeos acessados na página inicial. </li><li>Tempo assistido de vídeos acessados da página inicial.</li></ul>                                                                                                                       |
+| **Felicidade (Happiness)**   | Que o usuário fique satisfeito com as recomendações de vídeos na página inicial.                                                                                | Nível elevado de engajamento e feedbacks positivos nos vídeos acessados a partir da tela inicial.                                   | <ul><li>Taxa de curtidas em vídeos acessados na página inicial. </li><li>Tempo assistido de vídeos acessados da página inicial.</li></ul>                                                                                                                       |
 | **Engajamento (Engagement)** | Melhorar a interação dos usuários com a seção de recomendações, fazendo-os explorar mais vídeos de seus canais preferidos e descobrir novos conteúdos.            |<ul><li> Aumento de vídeos assistidos por sessão.</li><li>  Sessões mais longas por usuário. </li></ul>                                                          |  <ul><li> Quantidade de vídeos assistidos que são recomendações da página inicial, em relação a vídeos assistidos por buscas manuais.</li><li> Tempo médio por vídeo assistido a partir da página inicial, em relação a vídeos assistido por busca direta.</li></ul> |
-| **Adoção (Adoption)**        | Aumentar o uso das recomendações personalizadas na página inicial para descobrir vídeos de interesse.                                                              | Aumentar o número de usuários que seguem as recomendações personalizadas ao invés de usar a busca direta.                           | Quantidade de cliques em vídeos de recomendação a partir da tela inicial, em relação a vídeos acessados via busca direta.                                                                                                           |
+| **Adoção (Adoption)**        | Que o usuário passe a utilizar mais frequentemente as recomendações personalizadas da página inicial para descobrir vídeos de interesse.                                                              | Aumentar o número de usuários que seguem as recomendações personalizadas ao invés de usar a busca direta.                           | Quantidade de cliques em vídeos de recomendação a partir da tela inicial, em relação a vídeos acessados via busca direta.                                                                                                           |
 | **Retenção (Retention)**     | Manter os usuários voltando à página inicial do YouTube e utilizando recomendações de vídeos para encontrar conteúdo de seu interesse.                             | Maior retorno à tela inicial para acessar novas recomendações de vídeos.                                                            | <ul><li>Frequência de retorno dos usuários à página inicial. </li><li>Proporção de sessões que começam com a visualização de um vídeo recomendado. </li></ul>                                                                                                   |
 | **Sucesso da Tarefa (Task Success)**  | Otimizar o sucesso dos usuários em encontrar rapidamente vídeos novos de canais específicos ou conteúdos interessantes de canais desconhecidos na página inicial. | Aumentar cliques em vídeos recomendados na página inicial.      | Quantidade de vezes em que a página inicial é atualizada até um vídeo ser clicado.                      |
 
+### Hipóteses Levantadas
 
-### Proposta de Coleta de Dados Quantitativos 
+Problema: Os usuários não encontram vídeos relevantes para eles a partir da página inicial do YouTube.
 
-Para coletar e analisar as métricas apontadas na análise, considerando que o foco está na experiência do usuário no YouTube e na eficácia das recomendações de vídeos na página inicial, a proposta de ferramentas coleta de dados quantitativos segue abaixo: 
+**Hipótese 1:** As recomendações de vídeo não são relevantes para os interesses dos usuários.
+
+- Justificativa da Coleta de Dados: Coletar dados sobre a taxa de cliques em vídeos de recomendação na página inicial e a taxa de curtidas nesses vídeos ajudará a avaliar a relevância das recomendações. Uma baixa taxa de cliques e curtidas pode indicar que as recomendações não estão alinhadas com os interesses dos usuários.
+
+**Hipótese 2:** A interface da página inicial não é intuitiva, dificultando a navegação e descoberta de vídeos.
+
+- Justificativa da Coleta de Dados: Analisar a frequência de retorno dos usuários à página inicial e a quantidade de vezes que a página inicial é atualizada até um vídeo ser clicado pode revelar se os usuários estão tendo dificuldade em encontrar vídeos. Se os usuários estão atualizando a página frequentemente sem clicar em vídeos, isso pode indicar problemas de usabilidade na interface.
+
+**Hipótese 3:** Os usuários preferem buscar vídeos em vez de usar as recomendações da página inicial.
+
+- Justificativa da Coleta de Dados: Coletar dados sobre a proporção de sessões que começam com a visualização de um vídeo recomendado versus aqueles que começam com uma pesquisa pode ajudar a entender se os usuários estão preferindo usar a barra de pesquisa. Uma baixa proporção de vídeos recomendados assistidos pode sugerir que os usuários preferem buscar vídeos manualmente.
+
+**Hipótese 4:** A personalização das recomendações não está suficientemente adaptada ao comportamento passado do usuário.
+
+- Justificativa da Coleta de Dados: Monitorar a quantidade de vídeos assistidos que são recomendações da página inicial e o tempo assistido de vídeos acessados da página inicial pode fornecer insights sobre a eficácia da personalização. Se os usuários estão assistindo poucos vídeos recomendados ou assistindo por pouco tempo, isso pode indicar que as recomendações personalizadas não são eficazes.
+
+
+### Ferramentas e Coleta de Dados
 
 **1. Google Tag Manager (GTM):** 
 
-GTM pode ser usado para configurar e gerenciar tags de rastreamento de eventos JavaScript, para capturar eventos como cliques e interações com o vídeo. 
+GTM pode ser usado para configurar e gerenciar tags de rastreamento de eventos JavaScript, para capturar eventos como cliques e interações com o vídeo.
 
- 
+**- Métricas:**
+    
+    - Taxa de curtidas em vídeos acessados na página inicial.
+    
+    - Tempo assistido de vídeos acessados da página inicial.
+    
+    - Quantidade de vídeos assistidos que são recomendações da página inicial.
+   
+    - Tempo médio por vídeo assistido a partir da página inicial.
 
-- Métricas Contempladas: 
+**-  Configuração Necessária:** Para rastrear essas métricas específicas, é necessário configurar gatilhos e tags correspondentes dentro do GTM. Por exemplo, configurar gatilhos para detectar quando um usuário clica em um botão de "curtir" ou inicia a reprodução de um vídeo.
 
-    - Taxa de curtidas em vídeos acessados na página inicial. 
+Necessário também configurar variáveis dentro do GTM para capturar informações adicionais, como a duração do tempo assistido ou se um vídeo foi assistido a partir de uma recomendação na página inicial.
 
-    - Tempo assistido de vídeos acessados da página inicial. 
-
-    - Quantidade de vídeos assistidos que são recomendações da página inicial. 
-
-    - Tempo médio por vídeo assistido a partir da página inicial. 
-
-- Configuração Necessária: 
-
-Para rastrear essas métricas específicas, é necessário configurar gatilhos e tags correspondentes dentro do GTM. Por exemplo, configurar gatilhos para detectar quando um usuário clica em um botão de "curtir" ou inicia a reprodução de um vídeo. 
-
-Necessário também configurar variáveis dentro do GTM para capturar informações adicionais, como a duração do tempo assistido ou se um vídeo foi assistido a partir de uma recomendação na página inicial. 
-
-A integração com o Google Analytics ou outras plataformas de análise pode ser necessária para enviar esses dados capturados para análise mais aprofundada. 
+A integração com o Google Analytics ou outras plataformas de análise pode ser necessária para enviar esses dados capturados para análise mais aprofundada.
 
 **2. Google Analytics:**
 
-Ferramenta de análise web que pode ser integrada com o YouTube para fornecer dados mais aprofundados sobre o comportamento dos usuários no site. 
+Ferramenta de análise web que pode ser integrada com o YouTube para fornecer dados mais aprofundados sobre o comportamento dos usuários no site.
 
- 
+**- Métricas:**
+   
+     - Quantidade de cliques em vídeos de recomendação a partir da tela inicial.
+     
+     - Frequência de retorno dos usuários à página inicial.
+     
+     - Proporção de sessões que começam com a visualização de um vídeo recomendado.
 
-- Métricas Contempladas: 
-
-    - Quantidade de cliques em vídeos de recomendação a partir da tela inicial. 
-
-    - Frequência de retorno dos usuários à página inicial. 
-
-    - Proporção de sessões que começam com a visualização de um vídeo recomendado. 
-
-    - Configuração Necessária: Pode exigir a configuração de eventos personalizados para rastrear cliques em recomendações específicas e a interação com a página inicial. 
-
- 
+**- Configuração Necessária:** Pode exigir a configuração de eventos personalizados para rastrear cliques em recomendações específicas e a interação com a página inicial.
 
 **3. Desenvolvimento de Software Personalizado:**
 
-Para a métrica específica de quantidade de vezes que a página inicial é atualizada, pode ser necessária uma solução personalizada que envolva a utilização de scripts ou APIs personalizados para rastrear interações mais específicas, como atualizações da página inicial, pode ser necessária se as ferramentas padrão não fornecerem esses dados diretamente. 
+Para a métrica específica de quantidade de vezes que a página inicial é atualizada, pode ser necessária uma solução personalizada que envolva a utilização de scripts ou APIs personalizados para rastrear interações mais específicas, como atualizações da página inicial, pode ser necessária se as ferramentas padrão não fornecerem esses dados diretamente.
 
-- Métrica Contemplada: 
-
-    - Quantidade de vezes em que a página inicial é atualizada até um vídeo ser clicado.	 
-
-- Configuração Necessária:
-
- Para implementar o rastreamento dessas métricas com software personalizado, será preciso o acesso ao código-fonte do site, para uma compreensão dos eventos de interação do usuário que deseja rastrear e a capacidade de integrar ou desenvolver APIs que possam capturar e transmitir esses dados para sistemas de análise ou armazenamento de dados. 
+**- Métrica:**
+   
+     - Quantidade de vezes em que a página inicial é atualizada até um vídeo ser clicado.
+  
+  **- Configuração Necessária:** Para implementar o rastreamento dessas métricas com software personalizado, será preciso o acesso ao código-fonte do site, para uma compreensão dos eventos de interação do usuário que deseja rastrear e a capacidade de integrar ou desenvolver APIs que possam capturar e transmitir esses dados para sistemas de análise ou armazenamento de dados. 
 
 ### Referências
 
