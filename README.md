@@ -102,6 +102,69 @@ Para a métrica específica de quantidade de vezes que a página inicial é atua
   
   **- Configuração Necessária:** Para implementar o rastreamento dessas métricas com software personalizado, será preciso o acesso ao código-fonte do site, para uma compreensão dos eventos de interação do usuário que deseja rastrear e a capacidade de integrar ou desenvolver APIs que possam capturar e transmitir esses dados para sistemas de análise ou armazenamento de dados. 
 
+## Parte 2: Proposta de melhoria na interface com base em pesquisa qualitativa
+
+### Usuários Participantes
+
+Os testes foram realizados por três (3) usuários, utilizando códigos para identificação de cada usuário, sendo U01 para o Usuário de Teste 1, U02 para o Usuário de Teste e U03 para o Usuário de Teste 3, onde todos os participantes responderam um questionário demográfico antes de iniciar as avaliações de usabilidade (Tabela 01), proporcionando informações importantes para contextualizar os resultados dos testes e entender melhor as diferentes perspectivas e habilidades dos usuários envolvidos.
+
+Os resultados serão analisados de forma qualitativa, comparando respostas diferentes e agrupando observações que são semelhantes entre os usuários.
+
+Questão de Perfil Demográfico | 
+--- | 
+Qual a sua idade?  | 
+Qual gênero se identifica? | 
+Qual seu nível de escolaridade? | 
+Qual sua área de especialização? | 
+Qual cargo ocupa atualmente? | 
+
+### Roteiro do Teste
+
+Com o objetivo de verificar a integridade do dashboard de saúde mental, incluindo a avaliação do reconhecimento das informações e a percepção de um storytelling na construção dos gráficos, foram realizados testes em sessões que contavam com apenas um usuário participante e dois avaliadores, que partiram da tela inicial na página de login, contando que os usuários pudessem realizar todos os passos do roteiro (Tabela 02) em até dez (10) minutos.
+
+Roteiro utilizado para teste de usabilidade presencial moderado.
+#### Tabela 02: Roteiro utilizado para teste de usabilidade presencial moderado.
+| Número | Teste | Objetivo do Teste |
+| --- | --- | --- |
+| 1 | Quando você pensa em cursos de inglês, qual escola vem à sua mente? | Esta pergunta visa descobrir a primeira escolha de curso de inglês que vem à mente do interlocutor, fornecendo uma ideia inicial de suas associações e preferências. |
+| 2 | Se você considerasse um curso de inglês online, qual escola você escolheria? | Ao questionar sobre cursos de inglês online, o objetivo é entender se o interlocutor considera a modalidade online e qual escola específica ele escolheria, fornecendo insights sobre suas preferências de aprendizado digital. |
+| 3 | O que você entendeu sobre o curso Wizard On? | Esta pergunta visa avaliar o nível de entendimento do interlocutor ao analisar a LP do curso de inglês Wizard On. |
+| 4 | Você se matricularia neste curso? Por quê? | Ao perguntar se o interlocutor se matricularia no curso Wizard On e por quê, o objetivo é explorar os motivos por trás de sua decisão, revelando suas prioridades e critérios na escolha de um curso de inglês. |
+| 5 | Se optasse por se matricular, quais meios ou canais você usaria para fazer a matrícula? | Esta pergunta visa descobrir os meios ou canais que o interlocutor prefere para realizar a matrícula, fornecendo informações sobre suas preferências de comunicação ou interação com instituições educacionais. |
+
+Ao final do teste, foi aplicado o questionário de pós-teste (Tabela 03). Esse questionário visa aprofundar a compreensão da experiência dos usuários, permitindo que eles expressem suas opiniões, sentimentos e percepções sobre o uso do sistema. Esses aspectos subjetivos são essenciais para uma avaliação completa da usabilidade da solução, complementando as informações obtidas durante a interação direta com o produto.
+
+#### Tabela 03: Questionário de pós-teste.
+Pós-Teste |
+--- | 
+Como você avalia a compreensão dos termos utilizados no dashboard? | 
+Os cabeçalhos e rótulos facilitaram a identificação das informações em cada página? | 
+As informações apresentadas no dashboard foram relacionadas aos tópicos abordados nos cabeçalhos e rótulos? | 
+Você percebeu alguma sequência lógica na posição dos gráficos nas páginas? |
+
+### Resultados e discussão
+
+
+####  TABELA 05: Resultados qualitativos obtidos no teste U01.
+Número |  Resultado |Observações | 
+--- |  --- | --- |
+1 |  Feito |  Pouco esforço | 
+2 |  Feito | -    | 
+3 |  Feito | Notou que a Planta Taubaté possui mais respostas da GPTW do que outras plantas. Observação: O usuário não entendeu que o título diz diretoria e o gráfico faz correlação entre plantas.    | 
+4 |  Feito | "Piorou a experiência ao aumentar o zoom" (U01). Porém mostrou que ficou incomodado pois quando a tela estava no seu tamanho "Normal" de 100%, o frontend ficava desajustado. Vídeo - https://drive.google.com/file/d/1eLjOkXP1DWFp_7A-mKZYfnzCmDjJ_1iB/view?usp=drive_link    | 
+
+
+
+####  TABELA 08: Resultados qualitativos obtidos no questionário de pós-teste com todos os participantes.
+Pós-Teste | Resposta U01 | Resposta U02 | Resposta U03 | 
+--- | --- | --- |--- |
+Como você avalia a compreensão dos termos utilizados no dashboard? | Os termos da sidebar estão compreensíveis, porém os títulos dos componentes não se conectam com os títulos dos gráficos. | Ótimo | Os títulos dos componentes não se conectam com os títulos dos gráficos. |
+Os cabeçalhos e rótulos facilitaram a identificação das informações em cada página? | Sim, como dito anteriormente, a sidebar e os títulos das páginas estão entendíveis, o que precisa melhorar é a localização dos gráficos. | Sim |Os textos anteriores aos títulos estão desconexos  |
+As informações apresentadas no dashboard foram relacionadas aos tópicos abordados nos cabeçalhos e rótulos? | Não, pois os títulos não se conectam com as informações dos gráficos. | Sim, mas teve dificuldade para entender o motivo dos títulos dos gráficos |desconexos |
+Você percebeu alguma sequência lógica na posição dos gráficos nas páginas? | Não. | Não, página em branco |Não. Melhorar a disposição dos gráficos. Ficou em dúvida o que era o "Trust index GPTW" |
+
+
+
 ### Referências
 
 SURAKKA, Sami. Producing a Style Guide in Software Product Development Using the Lean UX Methodology. Tampere: Tampere University of Technology, 2017. Disponível em: https://trepo.tuni.fi/bitstream/handle/123456789/24937/Surakka.pdf?sequence=4&isAllowed=y. 
