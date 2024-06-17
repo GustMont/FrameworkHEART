@@ -146,6 +146,39 @@ Mais informações sobre os resultados obtidos em: https://docs.google.com/sprea
 
 ### Proposta
 
+Na seção de proposta, considerando os dados coletados nos testes e a análise usando framework heart, algumas melhorias e ajustes para a página inicial do YouTube serão sugeridas. Essas propostas visam proporcionar uma experiência mais personalizada e relevante para os usuários.
+
+#### Página inicial - Atual:
+
+ A página inicial do YouTube apresenta uma organização para maior ênfase no conteúdo de vídeos que estão na plataforma. O design utiliza uma hierarquia visual posicionando os elementos mais importantes em destaque, como o logotipo e a barra de pesquisa, no topo da tela. Logo abaixo é visível que os vídeos podem ser mostrados de acordo com temas dos vídeos.
+
+A maior parte da página existe para os vídeos, selecionados de acordo com um algoritmo que seleciona vídeos de acordo com o histórico e preferências do usuário, que podem ser acessados diretamente.
+
+ <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube1-2.png">
+
+#### Página inicial - Proposta:
+
+A principal mudança da página é a transferencia da feature que permite exibir vídeos de acordo com o tema, começando com "Tudo" que mostra todos os videos disponiveis, seguindo para "Jogos", "musica", etc. Na parte da página inicial em que os vídeos estão, os videos ja estão separados por temas, por linha, onde cada linha é um tema, disposto em formato carrossel, ou seja, permitindo que o usuario navegue para a direita para encontrar novos videos.
+
+ <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube1-3.png">
+
+#### Benefícios da Mudança:
+
+A proposta visa aumentar a satisfação do usuário com vídeos recomendados e maior quantidade de cliques em vídeos da página inicial, em relação a outras formas de localizar vídeos, como barra de busca direta e procura por canais específicos. Abaixo serão mencionados outros ganhos que essa feature pode trazer para os usuários:
+
+- Maior Facilidade de Navegação:
+O usuário terá acesso imediato aos seus temas de interesse, sem a necessidade de navegação adicional.
+A organização por tema em linhas horizontais com formato carrossel torna a exploração de conteúdos mais guiada.
+
+- Descoberta de Conteúdos:
+A segmentação por tema facilita a descoberta de novos vídeos que se alinham aos interesses do usuário.
+O formato carrossel permite que o usuário visualize mais opções de vídeos dentro de cada tema, aumentando a probabilidade de encontrar conteúdos que podem chamar atenção.
+
+- Personalização:
+A página inicial continuará a apresentar vídeos recomendados com base no histórico e preferências do usuário, mas com maior foco nos temas de interesse.
+
+
+
 
 ### Referências
 
