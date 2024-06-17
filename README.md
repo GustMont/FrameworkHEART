@@ -110,59 +110,41 @@ Os testes foram realizados por três (3) usuários, utilizando códigos para ide
 
 Os resultados serão analisados de forma qualitativa, comparando respostas diferentes e agrupando observações que são semelhantes entre os usuários.
 
-Questão de Perfil Demográfico | 
---- | 
-Qual a sua idade?  | 
-Qual gênero se identifica? | 
-Qual seu nível de escolaridade? | 
-Qual sua área de especialização? | 
-Qual cargo ocupa atualmente? | 
-
-### Roteiro do Teste
-
-Com o objetivo de verificar a integridade do dashboard de saúde mental, incluindo a avaliação do reconhecimento das informações e a percepção de um storytelling na construção dos gráficos, foram realizados testes em sessões que contavam com apenas um usuário participante e dois avaliadores, que partiram da tela inicial na página de login, contando que os usuários pudessem realizar todos os passos do roteiro (Tabela 02) em até dez (10) minutos.
-
-Roteiro utilizado para teste de usabilidade presencial moderado.
-#### Tabela 02: Roteiro utilizado para teste de usabilidade presencial moderado.
+#### Roteiro utilizado para teste de usabilidade.
 | Número | Teste | Objetivo do Teste |
 | --- | --- | --- |
-| 1 | Quando você pensa em cursos de inglês, qual escola vem à sua mente? | Esta pergunta visa descobrir a primeira escolha de curso de inglês que vem à mente do interlocutor, fornecendo uma ideia inicial de suas associações e preferências. |
-| 2 | Se você considerasse um curso de inglês online, qual escola você escolheria? | Ao questionar sobre cursos de inglês online, o objetivo é entender se o interlocutor considera a modalidade online e qual escola específica ele escolheria, fornecendo insights sobre suas preferências de aprendizado digital. |
-| 3 | O que você entendeu sobre o curso Wizard On? | Esta pergunta visa avaliar o nível de entendimento do interlocutor ao analisar a LP do curso de inglês Wizard On. |
-| 4 | Você se matricularia neste curso? Por quê? | Ao perguntar se o interlocutor se matricularia no curso Wizard On e por quê, o objetivo é explorar os motivos por trás de sua decisão, revelando suas prioridades e critérios na escolha de um curso de inglês. |
-| 5 | Se optasse por se matricular, quais meios ou canais você usaria para fazer a matrícula? | Esta pergunta visa descobrir os meios ou canais que o interlocutor prefere para realizar a matrícula, fornecendo informações sobre suas preferências de comunicação ou interação com instituições educacionais. |
+| 1 | Acesse sua página inicial do Youtube | Verificar o conteúdo apresentado na página inicial do YouTube pessoal do usuário, entendendo a relevância das recomendações iniciais, com base nas suas preferências pessoais. |
+| 2 | Quais vídeos que estão aparecendo te parecem interessantes, o que te chamou atenção? | Avaliar a partir da percepção pessoal do usuário sobre a relevância e a atratividade das recomendações dos vídeos. Identificar quais fatores (título, thumbnail, canal, tema, etc.) contribuem para o interesse e engajamento. |
+| 3 | Caso nenhum desses conteúdos sejam relevantes, qual a sua ação? | Entender o comportamento do usuário quando as recomendações da página inicial não são consideradas relevantes. Identificar se o usuário opta por buscar manualmente, navegar por outras seções, atualizar a página ou abandonar a plataforma. |
 
-Ao final do teste, foi aplicado o questionário de pós-teste (Tabela 03). Esse questionário visa aprofundar a compreensão da experiência dos usuários, permitindo que eles expressem suas opiniões, sentimentos e percepções sobre o uso do sistema. Esses aspectos subjetivos são essenciais para uma avaliação completa da usabilidade da solução, complementando as informações obtidas durante a interação direta com o produto.
+Ao final do teste, foi aplicado o questionário de pós-teste. Esse questionário visa aprofundar a compreensão da experiência dos usuários, permitindo que eles expressem suas opiniões, sentimentos e percepções sobre o uso do sistema. Esses aspectos subjetivos são essenciais para uma avaliação completa da usabilidade da solução, complementando as informações obtidas durante a interação direta com o produto.
 
-#### Tabela 03: Questionário de pós-teste.
+#### Questionário de pós-teste.
 Pós-Teste |
 --- | 
-Como você avalia a compreensão dos termos utilizados no dashboard? | 
-Os cabeçalhos e rótulos facilitaram a identificação das informações em cada página? | 
-As informações apresentadas no dashboard foram relacionadas aos tópicos abordados nos cabeçalhos e rótulos? | 
-Você percebeu alguma sequência lógica na posição dos gráficos nas páginas? |
+Por meio de qual plataforma você costuma acessar o youtube? | 
+Que tipo de conteúdo costuma consumir na plataforma? | 
+Com qual frequência você utiliza a plataforma? | 
 
 ### Resultados e discussão
 
+Agora serão apresentados os resultados dos testes realizados, e a partir dessas informações uma proposta de página inicial mais adequada às preferências será elaborada.
 
-####  TABELA 05: Resultados qualitativos obtidos no teste U01.
-Número |  Resultado |Observações | 
---- |  --- | --- |
-1 |  Feito |  Pouco esforço | 
-2 |  Feito | -    | 
-3 |  Feito | Notou que a Planta Taubaté possui mais respostas da GPTW do que outras plantas. Observação: O usuário não entendeu que o título diz diretoria e o gráfico faz correlação entre plantas.    | 
-4 |  Feito | "Piorou a experiência ao aumentar o zoom" (U01). Porém mostrou que ficou incomodado pois quando a tela estava no seu tamanho "Normal" de 100%, o frontend ficava desajustado. Vídeo - https://drive.google.com/file/d/1eLjOkXP1DWFp_7A-mKZYfnzCmDjJ_1iB/view?usp=drive_link    | 
+####  Resultados qualitativos obtidos nos testes U01.
+
+Todos os participantes acessam o YouTube via desktop, demonstrando uma preferência comum por esta plataforma. No entanto, os tipos de conteúdo consumidos variaram entre eles. O usuário 1 (U_01) prefere vídeos culinários, curiosidades e músicas, enquanto o usuário 2 (U_02) consome vídeos religiosos, assuntos sobre videogames e músicas. Já o usuário 3 (U_03) foca em lives, vídeos sobre jogos e notícias.
+
+A frequência de uso também apresenta diferenças, onde o U_01 utiliza a plataforma mais aos fins de semana, sugerindo um padrão de uso mais casual e focado em momentos de lazer. Em contrapartida, U_02 e U_03 utilizam o YouTube diariamente, indicando um uso mais frequente e possivelmente integrado à rotina diária.
+
+O comportamento na página inicial do YouTube mostrou ainda mais variabilidade. O U_01 teve dificuldades iniciais em confirmar se estava na página correta, o que pode indicar uma menor familiaridade com a interface. Ele também teve dificuldade em identificar vídeos interessantes de imediato e tende a buscar conteúdos específicos, utilizando a categorização de vídeos para explorar e encontrar algo de interesse (figura 3). Isso mostra um comportamento explorador e menos dependente das recomendações automáticas. Por outro lado, U_02, ao acessar a página inicial, prontamente utilizou a barra de busca, indicando um comportamento proativo e uma menor dependência das recomendações da página inicial. Ele prefere buscar ativamente por vídeos e canais específicos, utilizando as recomendações iniciais de forma limitada. U_03, por sua vez, identificou interesse em cerca de cinco vídeos rapidamente, sugerindo uma maior receptividade às recomendações iniciais. Ele busca novos vídeos por meio de atualizações constantes na página inicial, mas não costuma visitar canais específicos para novos conteúdos, a menos que esteja buscando algo em particular.
+
+ <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube1-1.png">
+Figura 3. Figura da tela inicial do usuário, anonimizada para segurança de informações, indicando a barra que categoriza os vídeos (extraído e anonimizado da página pessoal do U_01).
 
 
+Mais informações sobre os resultados obtidos em: https://docs.google.com/spreadsheets/d/1I-7KDWsP1A25jz0f9mG0f3SEi4YKsrok4C3U_12zcGg/edit?usp=sharing
 
-####  TABELA 08: Resultados qualitativos obtidos no questionário de pós-teste com todos os participantes.
-Pós-Teste | Resposta U01 | Resposta U02 | Resposta U03 | 
---- | --- | --- |--- |
-Como você avalia a compreensão dos termos utilizados no dashboard? | Os termos da sidebar estão compreensíveis, porém os títulos dos componentes não se conectam com os títulos dos gráficos. | Ótimo | Os títulos dos componentes não se conectam com os títulos dos gráficos. |
-Os cabeçalhos e rótulos facilitaram a identificação das informações em cada página? | Sim, como dito anteriormente, a sidebar e os títulos das páginas estão entendíveis, o que precisa melhorar é a localização dos gráficos. | Sim |Os textos anteriores aos títulos estão desconexos  |
-As informações apresentadas no dashboard foram relacionadas aos tópicos abordados nos cabeçalhos e rótulos? | Não, pois os títulos não se conectam com as informações dos gráficos. | Sim, mas teve dificuldade para entender o motivo dos títulos dos gráficos |desconexos |
-Você percebeu alguma sequência lógica na posição dos gráficos nas páginas? | Não. | Não, página em branco |Não. Melhorar a disposição dos gráficos. Ficou em dúvida o que era o "Trust index GPTW" |
-
+### Proposta
 
 
 ### Referências
