@@ -162,21 +162,24 @@ A principal mudança da página é a transferencia da feature que permite exibir
 
  <img width="1326" alt="image" src="https://github.com/Inteli-College/2024-1B-T04-SI10-G04/blob/main/imgs/youtube1-3.png">
 
-#### Benefícios da Mudança:
+### Novas Hipóteses
 
-A proposta visa aumentar a satisfação do usuário com vídeos recomendados e maior quantidade de cliques em vídeos da página inicial, em relação a outras formas de localizar vídeos, como barra de busca direta e procura por canais específicos. Abaixo serão mencionados outros ganhos que essa feature pode trazer para os usuários:
+A partir da nova proposta, algumas hipóteses podem ser lavantadas:
 
-- Maior Facilidade de Navegação:
-O usuário terá acesso imediato aos seus temas de interesse, sem a necessidade de navegação adicional.
-A organização por tema em linhas horizontais com formato carrossel torna a exploração de conteúdos mais guiada.
+- Navegação:
+O usuário pode encontrar conteúdos de seu interesse a partir da página inicial, sem a necessidade de navegação adicional, a partir da apresentação guiada de vídeos em carrossel?
+
+Essa hipótese pode ser mensurada a partir da cliques em vídeos pelo usuário, de vídeos encontrados na página inicial, versus vídeos encontrados por outras vias.
 
 - Descoberta de Conteúdos:
-A segmentação por tema facilita a descoberta de novos vídeos que se alinham aos interesses do usuário.
-O formato carrossel permite que o usuário visualize mais opções de vídeos dentro de cada tema, aumentando a probabilidade de encontrar conteúdos que podem chamar atenção.
+O usuário pode encontrar mais facilmente novos vídeos a partir da segmentação por tema?
 
-- Personalização:
-A página inicial continuará a apresentar vídeos recomendados com base no histórico e preferências do usuário, mas com maior foco nos temas de interesse.
+Essa hipótese pode ser mensurada a partir da quantidade de vídeos assistidos de canais ou temas que o usuário não assiste ou raramente assiste.
 
+- Retenção:
+O usuário pode permanecer mais tempo consumindo conteúdos da página a partir inicial?
+
+Essa hipótese pode ser mensurada a partir da quantidade de tempo em vídeos assistidos pelo usuário, de vídeos encontrados na página inicial, versus vídeos encontrados por outras vias.
 
 
 
